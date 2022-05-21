@@ -1,5 +1,5 @@
 const mainButton = document.querySelector("button");
-const body = document.body;
+const body = document.body;  //the whole body selected
 
 function randomColorGenerator(){
     const red = Math.floor(Math.random() * 256 );
